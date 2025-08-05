@@ -1,0 +1,44 @@
+.theme_katuscak_cookie_conset{
+    --cc-bg: #f9faff;
+    --cc-text: #112954;
+    --cc-btn-primary-bg: linear-gradient(180deg, #1c4efd, #2d1e58);
+    --cc-btn-primary-text: var(--cc-bg);
+    --cc-btn-primary-hover-bg: #1d2e38;
+    --cc-btn-secondary-bg: #dfe7f9;
+    --cc-btn-secondary-text: var(--cc-text);
+    --cc-btn-secondary-hover-bg: #c6d1ea;
+    --cc-toggle-bg-off: #8fa8d6;
+    --cc-toggle-bg-on: #007ff9;
+    --cc-toggle-bg-readonly: #cbd8f1;
+    --cc-toggle-knob-bg: #fff;
+    --cc-toggle-knob-icon-color: #ecf2fa;
+    --cc-block-text: var(--cc-text);
+    --cc-cookie-category-block-bg: #ebeff9;
+    --cc-cookie-category-block-bg-hover: #dbe5f9;
+    --cc-section-border: #f1f3f5;
+    --cc-cookie-table-border: #e1e7f3;
+    --cc-overlay-bg: rgba(230, 235, 255, .85);
+    --cc-webkit-scrollbar-bg: #ebeff9;
+    --cc-webkit-scrollbar-bg-hover: #007ff9;
+}
+
+.theme_katuscak_cookie_conset #c-ttl{
+    color: var(--cc-btn-primary-bg);
+}
+
+/* Custom border radius */
+.theme_katuscak_cookie_conset #cm, 
+.theme_katuscak_cookie_conset #s-bl .act .b-acc, 
+.theme_katuscak_cookie_conset #s-inr, 
+.theme_katuscak_cookie_conset .cc_div .b-tl, 
+.theme_katuscak_cookie_conset .cc_div .c-bl{
+    border-radius: 10px;
+}
+
+.theme_katuscak_cookie_conset .cc_div .c-bn{
+    border-radius: 10px;
+}
+
+#cm.right {
+    height: auto;
+}
